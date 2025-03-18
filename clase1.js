@@ -1,4 +1,4 @@
-// variables
+// variabless
 
 // let o const --> palabras reservadas
 
