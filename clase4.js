@@ -182,4 +182,5 @@ const saludoGeneral = (arr) => {
     arr[i].saludar();
   }
 };
+
 saludoGeneral(users);
