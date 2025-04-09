@@ -184,3 +184,14 @@ const saludoGeneral = (arr) => {
 };
 
 saludoGeneral(users);
+
+const cantidadPesos = Number(prompt("ingresa la cantidad de pesos"));
+const valorDolar = 1300;
+
+const convertirDolar = (cantidad) => {
+  const resultado = cantidad / valorDolar;
+  return resultado;
+};
+
+let resultadoFinal = convertirDolar(cantidadPesos);
+console.log(resultadoFinal);
