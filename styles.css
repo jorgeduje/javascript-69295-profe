@@ -1,3 +1,8 @@
 .title {
   color: peru;
 }
+
+.card {
+  width: 200px;
+  border: 1px solid black;
+}
