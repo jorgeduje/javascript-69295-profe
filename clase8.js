@@ -5,7 +5,7 @@ const getProducts = async () => {
   contenedor.innerHTML = `<div class="loader"></div>`;
   let bloqueFinal = document.getElementById("bloque-final");
   try {
-    let respuesta = await fetch("https://fakestoreapi.com/productss");
+    let respuesta = await fetch("https://fakestoreapi.com/products");
     if (!respuesta.ok) {
       throw new Error("este es un error custom que ponemos nosotros");
     }
